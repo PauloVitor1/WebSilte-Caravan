@@ -1,0 +1,41 @@
+body {
+  padding-top: 75px;
+}
+
+#home-quout {
+  background: url("../img/bg-quote.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.pergunta {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.lista-plano li {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.lista-plano li:last-child {
+  border: none;
+}
+
+@media (max-width: 767px) {
+  #home-quout .display-4 {
+    font-size: 2.5rem;
+  }
+
+  body {
+    padding-top: 0;
+  }
+
+  .fixed-top {
+    position: relative;
+  }
+}
